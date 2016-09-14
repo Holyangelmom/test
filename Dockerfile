@@ -15,8 +15,8 @@ RUN echo "panaidan   ALL=(ALL)       ALL" >> /etc/sudoers
 
 # 把admin用户的shell改成bash，否则SSH登录Ubuntu服务器，命令行不显示用户名和目录 
 RUN usermod -s /bin/bash panaidan
-RUN sudo apt-get install -y supervisor
-RUN sudo mkdir -p /var/log/supervisor
+RUN apt-get install -y supervisor
+RUN mkdir -p /var/log/supervisor
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 EXPOSE 22
 
