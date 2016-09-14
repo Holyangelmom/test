@@ -2,10 +2,10 @@ FROM ubuntu
 MAINTAINER holyangelmom 944505383@qq.com
 ENV DEBIAN_FRONTEND noninteractive
 # 清空ubuntu更新包
-RUN sudo rm -rf /var/lib/apt/lists/*
-RUN sudo apt-get update
-RUN sudo apt-get install -y vim wget curl openssh-server sudo
-RUN sudo mkdir -p /var/run/sshd
+RUN rm -rf /var/lib/apt/lists/*
+RUN apt-get update
+RUN apt-get install -y vim wget curl openssh-server sudo
+RUN mkdir -p /var/run/sshd
 # 将sshd的UsePAM参数设置成no
 RUN sed -i 's/UsePAM yes/UsePAM no/g' /etc/ssh/sshd_config
 
