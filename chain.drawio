@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T12:20:02.479Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Vpivjphuy8TfrELCS_iL" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T12:20:30.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="rm_jGLpCLVG7DbDK8NAC" version="24.4.13" type="github">
   <diagram name="第 1 页" id="Sc-aIbsoR985SgzVdLsM">
     <mxGraphModel dx="954" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,9 +150,6 @@
             <mxPoint x="672.3076923076924" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xKwDkKaY8YSx_MqXHMU7-57" value="使用spring的@Order的顺序来插入链表" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="459" width="80" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-58" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CheckShopLogisticsChainHandler&amp;lt;XXX&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="450" y="500" width="280" height="60" as="geometry" />
         </mxCell>
@@ -185,8 +182,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xKwDkKaY8YSx_MqXHMU7-65" value="客户端将处理器加入链表后，&lt;div&gt;调用handle，&lt;div&gt;并对结果进行处理即可&lt;/div&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-160" width="80" height="26" as="geometry" />
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-65" value="客户端将处理器加入链表后（使用spring的@Order的顺序来插入链表），&lt;div&gt;调用handle，&lt;div&gt;并对结果进行处理即可&lt;/div&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-290" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-66" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-63" target="xKwDkKaY8YSx_MqXHMU7-38">
           <mxGeometry width="160" relative="1" as="geometry">
