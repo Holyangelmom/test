@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T12:03:10.975Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="nv19wKhRYHhWSydEennQ" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T12:19:03.656Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xDcKx8nYWCEKjgS26xip" version="24.4.13" type="github">
   <diagram name="第 1 页" id="Sc-aIbsoR985SgzVdLsM">
-    <mxGraphModel dx="954" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,7 +88,7 @@
           <mxGeometry x="260" y="490" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-29" value="AbstractChainHandler&amp;lt;T&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="60" width="440" height="140" as="geometry" />
+          <mxGeometry x="480" y="60" width="440" height="140" as="geometry" />
         </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-30" value="+&amp;nbsp;&lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;successor&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;AbstractChainHandler&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 9pt; color: rgb(32, 153, 157);&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;&amp;gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xKwDkKaY8YSx_MqXHMU7-29">
           <mxGeometry y="26" width="440" height="26" as="geometry" />
@@ -100,10 +100,10 @@
           <mxGeometry y="60" width="440" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Result&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- isSuccess: boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="60" width="160" height="50" as="geometry" />
+          <mxGeometry x="1000" y="200" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LogisticsResult&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- lockType: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="190" width="160" height="50" as="geometry" />
+          <mxGeometry x="1310" y="200" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-39" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-38" target="xKwDkKaY8YSx_MqXHMU7-37">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -111,8 +111,109 @@
             <mxPoint x="970" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xKwDkKaY8YSx_MqXHMU7-41" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ChainHandle&amp;lt;T&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- head:&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;AbstractChainHandler&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 9pt; color: rgb(32, 153, 157);&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- tail:&amp;nbsp;&lt;span style=&quot;font-size: 9pt; background-color: rgb(255, 255, 255); font-family: Menlo;&quot;&gt;AbstractChainHandler&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; font-family: Menlo; color: rgb(32, 153, 157);&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; background-color: rgb(255, 255, 255); font-family: Menlo;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;addHandler&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(handler:&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;AbstractChainHandler&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 9pt; color: rgb(32, 153, 157);&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;handle&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(context:&lt;/span&gt;&lt;font face=&quot;Menlo&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;T,&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;passNextIfSuccess:boolean&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;Menlo&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="500" y="255" width="360" height="115" as="geometry" />
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-41" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ChainHandle&amp;lt;T&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- head:&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;AbstractChainHandler&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 9pt; color: rgb(32, 153, 157);&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- tail:&amp;nbsp;&lt;span style=&quot;font-size: 9pt; background-color: rgb(255, 255, 255); font-family: Menlo;&quot;&gt;AbstractChainHandler&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; font-family: Menlo; color: rgb(32, 153, 157);&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; background-color: rgb(255, 255, 255); font-family: Menlo;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;addHandler&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(handler:&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;AbstractChainHandler&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 9pt; color: rgb(32, 153, 157);&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;handle&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(context:&lt;/span&gt;&lt;font face=&quot;Menlo&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;T,&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;passNextIfSuccess:boolean&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;Menlo&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Result&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;font-size: 9pt; background-color: rgb(255, 255, 255); font-family: Menlo;&quot;&gt;getHead&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;Menlo&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;AbstractChainHandler&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 9pt; color: rgb(32, 153, 157);&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-250" width="360" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-44" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-29" target="xKwDkKaY8YSx_MqXHMU7-41">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="50" as="sourcePoint" />
+            <mxPoint x="840" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-45" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-41" target="xKwDkKaY8YSx_MqXHMU7-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="680" y="10" as="sourcePoint" />
+            <mxPoint x="840" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-46" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.007;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-29" target="xKwDkKaY8YSx_MqXHMU7-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="260" as="sourcePoint" />
+            <mxPoint x="890" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-47" value="AbstractLogisticsChainHandler&amp;lt;T&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="440" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xKwDkKaY8YSx_MqXHMU7-47">
+          <mxGeometry y="26" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-53" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-47" target="xKwDkKaY8YSx_MqXHMU7-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="500" as="sourcePoint" />
+            <mxPoint x="670" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-56" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-58" target="xKwDkKaY8YSx_MqXHMU7-47">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="610" y="500" as="sourcePoint" />
+            <mxPoint x="672.3076923076924" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-57" value="使用spring的@Order的顺序来插入链表" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="459" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-58" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CheckShopLogisticsChainHandler&amp;lt;XXX&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="500" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-59" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CheckOrderInfoLogisticsChainHandler&amp;lt;XXX&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="575" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-60" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.591;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-59" target="xKwDkKaY8YSx_MqXHMU7-49">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="510" as="sourcePoint" />
+            <mxPoint x="699" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CheckReceiverLogisticsChainHandler&amp;lt;XXX&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="950" y="650" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-62" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.561;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-61" target="xKwDkKaY8YSx_MqXHMU7-47">
+          <mxGeometry x="0.0016" width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="595" as="sourcePoint" />
+            <mxPoint x="728" y="352" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CheckSkuLogisticsChainHandler&amp;lt;XXX&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-64" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.852;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-63" target="xKwDkKaY8YSx_MqXHMU7-49">
+          <mxGeometry x="0.0016" width="160" relative="1" as="geometry">
+            <mxPoint x="927" y="660" as="sourcePoint" />
+            <mxPoint x="820" y="359" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-65" value="客户端调用handle，&lt;div&gt;并对结果进行处理即可&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-160" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-66" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-63" target="xKwDkKaY8YSx_MqXHMU7-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1090" y="400" as="sourcePoint" />
+            <mxPoint x="1250" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-67" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.561;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-61" target="xKwDkKaY8YSx_MqXHMU7-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="690" as="sourcePoint" />
+            <mxPoint x="860" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-68" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-59" target="xKwDkKaY8YSx_MqXHMU7-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1117" y="657" as="sourcePoint" />
+            <mxPoint x="1090" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-69" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xKwDkKaY8YSx_MqXHMU7-58" target="xKwDkKaY8YSx_MqXHMU7-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="680" as="sourcePoint" />
+            <mxPoint x="740" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-70" value="最后一步输出具体结果就行" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="450" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
