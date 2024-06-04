@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T12:19:03.656Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xDcKx8nYWCEKjgS26xip" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T12:19:36.612Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="hR4wtKJZ4laRP_zy_af6" version="24.4.13" type="github">
   <diagram name="第 1 页" id="Sc-aIbsoR985SgzVdLsM">
     <mxGraphModel dx="954" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,6 +214,9 @@
         </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-70" value="最后一步输出具体结果就行" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="450" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xKwDkKaY8YSx_MqXHMU7-71" value="开始检查订单是否命中物流规则" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="74" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
