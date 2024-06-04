@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T12:20:30.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="rm_jGLpCLVG7DbDK8NAC" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T12:20:39.269Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="h4buLdFRVmDBaSGQccKj" version="24.4.13" type="github">
   <diagram name="第 1 页" id="Sc-aIbsoR985SgzVdLsM">
     <mxGraphModel dx="954" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
           <mxGeometry y="60" width="440" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Result&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- isSuccess: boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="200" width="160" height="50" as="geometry" />
+          <mxGeometry x="1040" y="190" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xKwDkKaY8YSx_MqXHMU7-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LogisticsResult&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- lockType: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1310" y="200" width="160" height="50" as="geometry" />
