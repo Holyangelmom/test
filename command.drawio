@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T02:23:36.748Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="f9NhKb_9SB8TvDiasa73" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T02:26:03.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="d1ZtlnKO32j7OhJG5VmY" version="24.4.14" type="github">
   <diagram name="第 1 页" id="jtdqtNevG2qTxp8PL6Vh">
     <mxGraphModel dx="1781" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z4m2CYxDGZXg6nLTNb3O-23" value="run方法执行具体的对外请求" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="430" width="80" height="26" as="geometry" />
+          <mxGeometry x="1350" y="430" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Z4m2CYxDGZXg6nLTNb3O-24" value="command对象可在构造时传进来，也可以在执行时传进来&lt;br&gt;new Invoker().new&amp;nbsp;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;ConcreteHystrixCommand1()&lt;/b&gt;&lt;div&gt;.getApiResponse()&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="230" width="340" height="30" as="geometry" />
@@ -100,6 +100,9 @@
             <mxPoint x="1270" y="220" as="sourcePoint" />
             <mxPoint x="1400" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-29" value="HystrixCommand在run方法执行后进行熔断判断&lt;div&gt;如果错误次数达到阈值，则进行熔断&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="70" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
