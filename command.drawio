@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T02:04:58.490Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="u89BYNUS6kN42cb8xgjY" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T02:23:36.748Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="f9NhKb_9SB8TvDiasa73" version="24.4.14" type="github">
   <diagram name="第 1 页" id="jtdqtNevG2qTxp8PL6Vh">
-    <mxGraphModel dx="1781" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Z4m2CYxDGZXg6nLTNb3O-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Invoker&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ command:&amp;nbsp;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;HystrixCommand&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ execute(&lt;span style=&quot;background-color: initial;&quot;&gt;command:&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;HystrixCommand&amp;lt;T&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): T&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="60" y="100" width="250" height="110" as="geometry" />
+          <mxGeometry x="60" y="90" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;HystrixCommand&amp;lt;T extends ApiResponse&amp;gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ run(): T&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;getFallback():T&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;HystrixCommand&amp;lt;ApiResponse&amp;lt;T&amp;gt;&amp;gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ run():&amp;nbsp;&lt;/i&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;i&gt;ApiResponse&amp;lt;T&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;getFallback():&lt;/span&gt;&lt;/i&gt;&lt;i style=&quot;background-color: initial; text-align: center;&quot;&gt;ApiResponse&amp;lt;T&amp;gt;&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="400" y="100" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConcreteHystrixCommand1&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="300" y="320" width="190" height="90" as="geometry" />
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConcreteHystrixCommand1&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;&amp;lt;ApiResponse&amp;lt;T&amp;gt;&amp;gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Z4m2CYxDGZXg6nLTNb3O-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z4m2CYxDGZXg6nLTNb3O-5" target="Z4m2CYxDGZXg6nLTNb3O-4">
           <mxGeometry x="0.0045" width="160" relative="1" as="geometry">
@@ -20,8 +20,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConcreteHystrixCommand2&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="320" width="190" height="90" as="geometry" />
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConcreteHystrixCommand2&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;&amp;lt;ApiResponse&amp;lt;T&amp;gt;&amp;gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Z4m2CYxDGZXg6nLTNb3O-9" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4m2CYxDGZXg6nLTNb3O-8" target="Z4m2CYxDGZXg6nLTNb3O-4">
           <mxGeometry x="0.0045" width="160" relative="1" as="geometry">
@@ -31,10 +31,75 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z4m2CYxDGZXg6nLTNb3O-10" value="run方法执行具体的对外请求" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="420" width="80" height="26" as="geometry" />
+          <mxGeometry x="400" y="420" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-12" value="new Invoker().execute(new&amp;nbsp;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;ConcreteHystrixCommand1()&lt;/b&gt;)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="230" width="340" height="30" as="geometry" />
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-12" value="command对象可在构造时传进来，也可以在执行时传进来&lt;br&gt;new Invoker().execute(new&amp;nbsp;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;ConcreteHystrixCommand1()&lt;/b&gt;)&lt;div&gt;.getApiResponse()&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="220" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-15" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z4m2CYxDGZXg6nLTNb3O-1" target="Z4m2CYxDGZXg6nLTNb3O-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="30" y="390" as="sourcePoint" />
+            <mxPoint x="190" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-16" value="命令需要按平台分组，怎么办？&lt;div&gt;再从HystrixCommand继承一个基类，每个平台一个基类，然后各平台的命令继承自该基类？&lt;/div&gt;&lt;div&gt;如此一来基类及其子类太多，太麻烦&lt;/div&gt;&lt;div&gt;可以考虑在每个平台建一个Invoker，每个Invoker里定义各平台的命令，需要调用时直接new某个命令&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-40" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Invoker&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ execute(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;command:&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;HystrixCommand&amp;lt;T&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): T&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="100" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;HystrixCommand&amp;lt;ApiResponse&amp;lt;T&amp;gt;&amp;gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ run():&amp;nbsp;&lt;/i&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;i&gt;ApiResponse&amp;lt;T&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo; font-size: 9pt;&quot;&gt;getFallback():&lt;/span&gt;&lt;/i&gt;&lt;i style=&quot;background-color: initial; text-align: center;&quot;&gt;ApiResponse&amp;lt;T&amp;gt;&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="110" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConcreteHystrixCommand1&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;&amp;lt;ApiResponse&amp;lt;T&amp;gt;&amp;gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="330" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-20" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z4m2CYxDGZXg6nLTNb3O-19" target="Z4m2CYxDGZXg6nLTNb3O-18">
+          <mxGeometry x="0.0045" width="160" relative="1" as="geometry">
+            <mxPoint x="1110" y="310" as="sourcePoint" />
+            <mxPoint x="1270" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConcreteHystrixCommand2&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;&amp;lt;ApiResponse&amp;lt;T&amp;gt;&amp;gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="280" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4m2CYxDGZXg6nLTNb3O-21" target="Z4m2CYxDGZXg6nLTNb3O-18">
+          <mxGeometry x="0.0045" width="160" relative="1" as="geometry">
+            <mxPoint x="1375" y="340" as="sourcePoint" />
+            <mxPoint x="1440" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-23" value="run方法执行具体的对外请求" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="430" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-24" value="command对象可在构造时传进来，也可以在执行时传进来&lt;br&gt;new Invoker().new&amp;nbsp;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;ConcreteHystrixCommand1()&lt;/b&gt;&lt;div&gt;.getApiResponse()&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="230" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-25" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z4m2CYxDGZXg6nLTNb3O-17" target="Z4m2CYxDGZXg6nLTNb3O-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="400" as="sourcePoint" />
+            <mxPoint x="1140" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-26" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="244.5" as="sourcePoint" />
+            <mxPoint x="890" y="244.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-27" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4m2CYxDGZXg6nLTNb3O-17" target="Z4m2CYxDGZXg6nLTNb3O-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1040" y="340" as="sourcePoint" />
+            <mxPoint x="1200" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4m2CYxDGZXg6nLTNb3O-28" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4m2CYxDGZXg6nLTNb3O-17" target="Z4m2CYxDGZXg6nLTNb3O-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1270" y="220" as="sourcePoint" />
+            <mxPoint x="1400" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
